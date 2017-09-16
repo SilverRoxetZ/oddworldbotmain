@@ -1,4 +1,4 @@
-const botSettings = require("./botsettings.json");
+const botSettings = require("botsettings.json");
 const prefix = botSettings.prefix;
 bot.on("ready", async() => {
     console.log(`Bot is ready! ${bot.user.username}`);
